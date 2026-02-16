@@ -7,19 +7,20 @@ NAME		= a.out
 
 # Source files
 SRCS		= main.cpp \
-			  ClapTrap.cpp \
-			  ScavTrap.cpp \
-			  FragTrap.cpp \
-			  DiamondTrap.cpp
+			  Animal.cpp \
+			  Cat.cpp \
+			  Dog.cpp \
+			  Brain.cpp
+
 
 # Object files
 OBJS		= $(SRCS:.cpp=.o)
 
 # Header files (for dependencies)
-HEADERS		= ClapTrap.hpp \
-			  ScavTrap.hpp \
-			  FragTrap.hpp \
-			  DiamondTrap.hpp
+HEADERS		= Animal.hpp \
+			  Cat.hpp \
+			  Dog.hpp \
+			  Brain.hpp
 
 
 # Colors for pretty output
